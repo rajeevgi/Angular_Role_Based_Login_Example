@@ -1,27 +1,27 @@
 export const BookingConstant = {
     menus : [
         {
-            path : 'app-home',
+            path : '/app-home',
             text : 'Home',
             roles : ['Admin','Client','User']
         },
         {
-            path : 'app-about',
+            path : '/app-about',
             text : 'About',
             roles : ['Admin','Client','User']
         },
         {
-            path : 'app-user',
+            path : '/app-user',
             text : 'User',
             roles : ['Admin','Client']
         },
         {
-            path : 'app-client',
+            path : '/app-client',
             text : 'Client',
             roles : ['Admin']
         },
         {
-            path : 'app-dashboard',
+            path : '/app-dashboard',
             text : 'Dashboard',
             roles : ['Admin','Client']
         }

@@ -9,22 +9,11 @@
           <li class="nav-item" *ngFor="let menu of filteredMenu">
             <a class="nav-link" [routerLink]="menu.path">{{menu.text}}</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" routerLink="/app-about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/app-dashboard">Dashboard</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/app-user">User</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/app-client">Client</a>
-          </li> -->
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="text" placeholder="Search">
-          <button class="btn btn-primary" type="button">Search</button>
+        <form class="d-flex justify-content-between">
+          <span class="text-white">Logged In : {{ role }}</span>
+          <!-- <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button> -->
         </form>
       </div>
     </div>

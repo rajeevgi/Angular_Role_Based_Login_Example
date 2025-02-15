@@ -30,7 +30,5 @@ export class LayoutComponent {
         this.filteredMenu.push(element);
       }
     });
-
-
   }
 }

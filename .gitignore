@@ -1,6 +1,6 @@
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
-USER_DATA.json
+USER_DATA.js
 
 # Compiled output
 /dist
